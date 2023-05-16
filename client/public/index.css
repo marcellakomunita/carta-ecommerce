@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lato&family=Playfair+Display:ital@0;1&family=Urbanist&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input:focus {
+  outline: none;
+}
+
+li ul {
+  transform: translatex(100%) scale(0);
+}
+
+li:hover > ul {
+  transform: translatex(101%) scale(1);
+}
+
+li > ul.python {
+  transform: translatex(101%) scale(1);
+}
+
+.group:hover .group-hover-scale-100 {
+  transform: scale(1);
+}
+
+.scale-0 {
+  transform: scale(0);
+}
+
+.min-w-32 {
+  min-width: 8rem;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}

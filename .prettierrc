@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "format": "prettier --write \"client/src/**/*.{js,jsx}\" \"server/**/*.{js,jsx}\""
+  }
+}
